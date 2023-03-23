@@ -74,7 +74,6 @@
                 c_header = true;
               };
               trouble.enable = true;
-              lspSignature.enable = true;
             };
 
             keys = {
