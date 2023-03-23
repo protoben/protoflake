@@ -1,5 +1,21 @@
 {
   "nodes": {
+    "ai": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1679353018,
+        "narHash": "sha256-fpyvjrTBGi22qcRmCgeRMvafbGa0F2t71mZCXj4SKtw=",
+        "owner": "aduros",
+        "repo": "ai.vim",
+        "rev": "03e5f7ee4a34208148e3d51521dfcf9c674e82f9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "aduros",
+        "repo": "ai.vim",
+        "type": "github"
+      }
+    },
     "bufdelete-nvim": {
       "flake": false,
       "locked": {
@@ -328,6 +344,7 @@
     },
     "neovim-flake": {
       "inputs": {
+        "ai": "ai",
         "bufdelete-nvim": "bufdelete-nvim",
         "catppuccin": "catppuccin",
         "cmp-buffer": "cmp-buffer",
@@ -381,16 +398,15 @@
         "which-key": "which-key"
       },
       "locked": {
-        "lastModified": 1679538829,
-        "narHash": "sha256-eh+c5Kjs9YHHSLAz3ZEdgE7UNR5xPIFp4n1N1TF+nJ8=",
+        "lastModified": 1679539025,
+        "narHash": "sha256-ADRMrJD0Ia8nKG4SAjK64f1z0c8R7NWysN1mWPUvrvc=",
         "owner": "protoben",
         "repo": "neovim-flake",
-        "rev": "d0d7a3579f482b5245a922256f0da37ba22f9e39",
+        "rev": "5f22a7913dbd044d262d4aa47c0c93e6fa03790b",
         "type": "github"
       },
       "original": {
         "owner": "protoben",
-        "ref": "feature/moonfly",
         "repo": "neovim-flake",
         "type": "github"
       }
