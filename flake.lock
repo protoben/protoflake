@@ -1,21 +1,5 @@
 {
   "nodes": {
-    "ai": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1679353018,
-        "narHash": "sha256-fpyvjrTBGi22qcRmCgeRMvafbGa0F2t71mZCXj4SKtw=",
-        "owner": "aduros",
-        "repo": "ai.vim",
-        "rev": "03e5f7ee4a34208148e3d51521dfcf9c674e82f9",
-        "type": "github"
-      },
-      "original": {
-        "owner": "aduros",
-        "repo": "ai.vim",
-        "type": "github"
-      }
-    },
     "bufdelete-nvim": {
       "flake": false,
       "locked": {
@@ -304,6 +288,22 @@
         "type": "github"
       }
     },
+    "moonfly": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1678421083,
+        "narHash": "sha256-T4FH/ZMezCbwgz00whP25H20gWzo67zcBh9pv6FcFIw=",
+        "owner": "bluz71",
+        "repo": "vim-moonfly-colors",
+        "rev": "b2000bf399f9de69d55ce9aafbcbd598142dd141",
+        "type": "github"
+      },
+      "original": {
+        "owner": "bluz71",
+        "repo": "vim-moonfly-colors",
+        "type": "github"
+      }
+    },
     "naersk": {
       "inputs": {
         "nixpkgs": [
@@ -328,7 +328,6 @@
     },
     "neovim-flake": {
       "inputs": {
-        "ai": "ai",
         "bufdelete-nvim": "bufdelete-nvim",
         "catppuccin": "catppuccin",
         "cmp-buffer": "cmp-buffer",
@@ -346,6 +345,7 @@
         "lspkind": "lspkind",
         "lspsaga": "lspsaga",
         "lualine": "lualine",
+        "moonfly": "moonfly",
         "nil": "nil",
         "nixpkgs": "nixpkgs",
         "nmd": "nmd",
@@ -381,17 +381,17 @@
         "which-key": "which-key"
       },
       "locked": {
-        "lastModified": 1679529713,
-        "narHash": "sha256-+z5if5NUTH+6OVnXXs15HXgJD5WY+Ql3CPq3rRM7+G4=",
+        "lastModified": 1679538829,
+        "narHash": "sha256-eh+c5Kjs9YHHSLAz3ZEdgE7UNR5xPIFp4n1N1TF+nJ8=",
         "owner": "protoben",
         "repo": "neovim-flake",
-        "rev": "c9dd88e0bd571d619fdfea9b14e124094e848b87",
+        "rev": "d0d7a3579f482b5245a922256f0da37ba22f9e39",
         "type": "github"
       },
       "original": {
         "owner": "protoben",
+        "ref": "feature/moonfly",
         "repo": "neovim-flake",
-        "rev": "c9dd88e0bd571d619fdfea9b14e124094e848b87",
         "type": "github"
       }
     },

@@ -2,7 +2,7 @@
   description = "Ben Hamlin's user environment flakes";
 
   inputs = {
-    neovim-flake.url = "github:protoben/neovim-flake:919980c12f790aada7da7d43de0ffc15b943d3fa";
+    neovim-flake.url = "github:protoben/neovim-flake";
   };
 
   outputs = { self, nixpkgs, neovim-flake }:
@@ -35,8 +35,7 @@
         theme = {
           config.vim.theme = {
             enable = true;
-            name = "onedark";
-            style = "dark";
+            name = "moonfly";
           };
         };
         ai = {
