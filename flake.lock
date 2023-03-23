@@ -398,11 +398,11 @@
         "which-key": "which-key"
       },
       "locked": {
-        "lastModified": 1679558463,
-        "narHash": "sha256-qRwtNbkk0c4wtUypzf1IfmaGlpXeWOqcoGm/zWC71u8=",
+        "lastModified": 1679569923,
+        "narHash": "sha256-8GtKj8PMYvuL1hpDfscM+Mcj8pr4+i0HR2a8hraMKI8=",
         "owner": "protoben",
         "repo": "neovim-flake",
-        "rev": "f444f908adc35fabb51162fa15a8e436670d5fa7",
+        "rev": "6c1b3c261ef0002a98986868044e09ad4fd20b52",
         "type": "github"
       },
       "original": {

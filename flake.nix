@@ -19,6 +19,7 @@
           config.vim.useSystemClipboard = true;
           config.vim.mouseSupport = "a";
           config.vim.homekeyMovement = true;
+          config.vim.nnoremap = { "<silent><leader>bd" = ":Bufdelete<CR>"; };
         };
         theme = {
           config.vim.theme.enable = true;
