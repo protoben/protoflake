@@ -14,29 +14,15 @@
     neovim = rec {
       modules = {
         base = {
-          config.vim =
-            let
-              mappings = {
-                ";" = "l";
-                "l" = "k";
-                "k" = "j";
-                "j" = "h";
-              };
-            in {
-              lineNumberMode = "number";
-              mapLeaderSpace = true;
-              useSystemClipboard = true;
-              mouseSupport = "a";
-              nnoremap = mappings;
-              vnoremap = mappings;
-              onoremap = mappings;
-            };
+          config.vim.lineNumberMode = "number";
+          config.vim.mapLeaderSpace = true;
+          config.vim.useSystemClipboard = true;
+          config.vim.mouseSupport = "a";
+          config.vim.homekeyMovement = true;
         };
         theme = {
-          config.vim.theme = {
-            enable = true;
-            name = "moonfly";
-          };
+          config.vim.theme.enable = true;
+          config.vim.theme.name = "moonfly";
         };
         ai = {
           config.vim.ai.enable = true;
@@ -87,12 +73,15 @@
                 c_header = true;
               };
               trouble.enable = true;
+              lspSignature.enable = true;
             };
 
             keys = {
               enable = true;
               whichKey.enable = true;
             };
+
+            telescope.enable = true;
           };
         };
       };
