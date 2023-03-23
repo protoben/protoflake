@@ -79,7 +79,7 @@
 
             lsp = {
               enable = true;
-              formatOnSave = true;
+              formatOnSave = false;
               nix.enable = true;
               rust.enable = true;
               python = true;
