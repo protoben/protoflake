@@ -51,13 +51,8 @@
 
             visuals = {
               enable = true;
-              nvimWebDevicons.enable = true;
               lspkind.enable = true;
               indentBlankline.enable = true;
-            };
-
-            tabline.nvimBufferline = {
-              enable = true;
             };
 
             treesitter = {
