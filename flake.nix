@@ -24,6 +24,9 @@
         theme = {
           config.vim.theme.enable = true;
           config.vim.theme.name = "moonfly";
+          config.vim.theme.extraConfig = ''
+            vim.g.moonflyTransparent = true
+          '';
         };
         ai = {
           config.vim.ai.enable = true;
